@@ -1,7 +1,10 @@
 package calculator;
 
 public enum CalculatorActions {
-    minus("-"), plus("+"), multiply("*"), divide("/");
+    MINUS("-"),
+    PLUS("+"),
+    MULTIPLY("*"),
+    DIVIDE("/");
 
     public final String action;
 
